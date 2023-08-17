@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guestline.Battleship", "Gue
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guestline.Battleship.BLL", "Guestline.Battleship.BLL\Guestline.Battleship.BLL.csproj", "{B396E3ED-F58A-4B7A-93C1-4CD79F3FABBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guestline.Battleship.Tests", "Guestline.Battleship.Tests\Guestline.Battleship.Tests.csproj", "{9DF2E81D-5B95-4255-A183-8AC5C96FF594}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B396E3ED-F58A-4B7A-93C1-4CD79F3FABBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B396E3ED-F58A-4B7A-93C1-4CD79F3FABBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B396E3ED-F58A-4B7A-93C1-4CD79F3FABBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF2E81D-5B95-4255-A183-8AC5C96FF594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF2E81D-5B95-4255-A183-8AC5C96FF594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF2E81D-5B95-4255-A183-8AC5C96FF594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF2E81D-5B95-4255-A183-8AC5C96FF594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

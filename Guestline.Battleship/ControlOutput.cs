@@ -129,15 +129,8 @@ namespace Guestline.Battleship
                     str = "Shot location: " + c.XCoordinate + GetLetterFromNumber(c.YCoordinate) + "\t result: Miss!";
                     break;
                 case ShotStatus.Victory:
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    str = "Shot location: " + c.XCoordinate + GetLetterFromNumber(c.YCoordinate) + "\t result: Hit and Sunk, " + shotresponse.ShipImpacted + "! \n\n";
-                    str += "       ******\n";
-                    str += "       ******\n";
-                    str += "        **** \n";
-                    str += "         **  \n";
-                    str += "         **  \n";
-                    str += "       ******\n";
-                    str += "Game Over, " + playername + " wins!";
+                    Console.ForegroundColor = ConsoleColor.Green;                   
+                    str += "Game Over!";
                     break;
             }
             Console.WriteLine(str);
